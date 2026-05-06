@@ -7,7 +7,7 @@ An IoT-controlled robotic arm featuring a continuous-rotation pan/tilt base and 
 * **Actuation (Pan/Tilt):** Continuous Rotation Servos
 * **Actuation (Gripper):** N20 Micro Gearmotor with Magnetic Encoder
 * **Motor Driver:** TB6612FNG (For N20 bidirectional control)
-* **Gripper Mechanism:** 3D-printed TPU mechanically-driven soft fingers, actuated by the N20 motor rotating a worm gear.
+* **Gripper Mechanism:** 3D-printed TPU mechanically-driven soft fingers, actuated by the N20 motor rotating a worm gear and follower.
 
 ## 💻 Software & Control Logic
 The firmware is written in C++ and leverages `BlynkSimpleEsp32` for remote telemetry and control.
