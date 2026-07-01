@@ -13,7 +13,7 @@ An IoT-controlled robotic arm featuring a continuous-rotation pan/tilt base and 
 The firmware is written in C++ and leverages `BlynkSimpleEsp32` for remote telemetry and control.
 
 * **Asymmetric Joystick Mapping (Tilt Arm):** Continuous servos fighting gravity require highly specific PWM signals. The tilt arm uses an asymmetric mapping curve to distinguish between lifting against gravity, active braking, and powered descent.
-* **Closed-Loop Gripper Control:** The N20 motor utilizes a custom PID-style interrupt loop reading the quadrature encoder. This allows the system to target precise rotational clicks (e.g., exactly 3 turns to fully close the tendons) and actively lock the brakes when the target is reached.
+* **Closed-Loop Gripper Control:** The N20 motor utilizes a custom PID-style interrupt loop reading the quadrature encoder. This allows the system to target precise rotational clicks (e.g., exactly 3 turns to fully close the tendons) and actively lock the brakes when target is reached.
 
 ## 📂 Repository Contents
 * `/CAD` - Contains the SolidWorks part and assembly files (`.SLDPRT`, `.SLDASM`) for the arm and the TPU soft gripper, alongside `.STL` exports for immediate 3D printing.
@@ -28,4 +28,4 @@ The firmware is written in C++ and leverages `BlynkSimpleEsp32` for remote telem
    * **V2 (Switch):** Map to `0 and 100` (Gripper Open/Close)
 
 ---
-**Author:** Aadi Shah | B.Tech Mechanical Engineering, IIT Ropar
+**Author:* * Aadi Shah | B.Tech Mechanical Engineering, IIT Ropar
