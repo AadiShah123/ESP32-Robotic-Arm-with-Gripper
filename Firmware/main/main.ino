@@ -163,3 +163,4 @@ void loop() {
   
   delay(10); 
 }
+// Contributed to the soft gripper development branch
